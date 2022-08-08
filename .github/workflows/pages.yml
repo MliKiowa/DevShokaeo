@@ -1,8 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hexo site to Pages
-
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
@@ -20,7 +17,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Default to bash
 defaults:
   run:
     shell: bash
@@ -28,7 +24,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest   
     steps:
       - name: Use Node.js 
         uses: actions/setup-node@v3
