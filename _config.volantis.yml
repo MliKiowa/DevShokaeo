@@ -35,3 +35,11 @@ comments:
     theme:
       light: "light" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
+article:
+   meta_library:
+      # 默认文章作者（可在 front-matter 中覆盖）
+     author:
+        avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+        name: Mlikiowa
+        url: /
+      # 文章创建日期
