@@ -37,6 +37,7 @@ jobs:
           hexo clean
           hexo generate
           hexo deploy
+          ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
