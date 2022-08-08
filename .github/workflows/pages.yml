@@ -27,11 +27,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v1
       - name: Build with Hexo
-        run: |
-          cd ..
-          ls 
-          npm install hexo 
-          cd Naano-Blog
+        run: |        
+          npm install
           hexo g
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
