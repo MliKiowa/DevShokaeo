@@ -139,3 +139,11 @@ article:
           img: # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
         - id: # telegram
           img: # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+blogger:
+  class: blogger
+  display: [desktop] # [desktop, mobile]
+  avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+  title: Mlikiowa
+  subtitle:
+  jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+  social: true
