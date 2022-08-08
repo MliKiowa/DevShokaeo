@@ -33,7 +33,7 @@ jobs:
       - name: Build with Hexo
         run: |
           ls
-          npm install hexo-cil 
+          npm install hexo 
           hexo g
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
