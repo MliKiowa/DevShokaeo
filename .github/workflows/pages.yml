@@ -1,7 +1,10 @@
-name: Deploy Hexo site to Pages
+name: Deploy Hexo
 on:
   push:
-    branches: ["main"]
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 permissions:
   contents: read
   pages: write
@@ -11,9 +14,8 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-jobs:
-  build:
-    runs-on: ubuntu-latest   
+build:
+    runs-on: ubuntu-latest     
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -22,14 +24,19 @@ jobs:
       - name: Use Node.js 
         uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 16.x
+      - name: Setup Hexo Blog Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v1
       - name: Build with Hexo
         run: |        
-          npm install
-          hexo g
+          hexo clean
+          hexo generate
+          hexo deploy
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
