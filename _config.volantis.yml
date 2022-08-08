@@ -171,4 +171,11 @@ custom_css:
   cursor:
     enable: true
   font_smoothing: true
- 
+blogger:
+  class: blogger
+  display: [desktop, mobile]
+  avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+  title: Mlikiowa
+  subtitle:
+  jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+  social: true
