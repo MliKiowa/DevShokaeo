@@ -1,0 +1,14 @@
+comments:
+  service: giscus
+  giscus:
+    repo: Mlikiowa/MliKiowa.github.io
+    repo-id: MliKiowa.github.io
+    category: General
+    category-id: DIC_kwDOHxvLiM4CQr9N
+    mapping: "url"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
+    theme:
+      light: "light" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
+      dark: "dark" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
