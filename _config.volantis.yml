@@ -165,21 +165,8 @@ article:
         - id: # telegram
           img: # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
 site_footer:
-  layout: [ social, copyright]
-  copyright: ''
-  social:
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/020-rss.svg
-      url: atom.xml
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/029-github.svg
-      url: https://github.com/volantis-x/
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/010-facebook.svg
-      url: /
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/018-twitter.svg
-      url: /
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/045-telegram.svg
-      url: /
-    - img: volantis-static/media/org.volantis/icon/1322024-social-media/006-youtube.svg
-      url: /
+  layout: [copyright]
+  copyright: '⌘ Hexo With Volantis'  
 custom_css:
   cursor:
     enable: true
