@@ -39,7 +39,7 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Build with Hexo
         run: |
-          cd Naano-Blog
+          ls
           npm install hexo 
           npm install
       - name: Upload artifact
