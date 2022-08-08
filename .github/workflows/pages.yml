@@ -42,6 +42,7 @@ jobs:
           ls
           npm install hexo 
           npm install
+          hexo g
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
