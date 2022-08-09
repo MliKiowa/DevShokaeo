@@ -131,7 +131,7 @@ sidebar:
       class: blogger
       display: [desktop] # [desktop, mobile]
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
-      shape: rectangle # circle, rectangle
+      shape: circle # circle, rectangle
       url: /about/
       title:
       subtitle:
@@ -254,7 +254,7 @@ color_scheme:
     h4: '#444'
     h5: '#555'
     h6: '#666'
-    p: '#444'
+    p: '#e4d7fe'
 
     # 列表文字
     list: '#666'
