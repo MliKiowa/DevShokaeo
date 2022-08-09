@@ -27,11 +27,12 @@ date: 2022-08-05
 之前还想试试hexo-theme-diaspora这样的主题(移植wp到hexo的，看介绍图很好看)，可惜作者没更新了，
 所以我换成了volantis主题 (npm -i hexo-theme-volantis 可以轻松安装)，个人感觉色调和布局都很好看
 ## 迁移使用
-'''script bash.sh
+```script
+bash.sh
 git clone https://github.com/MliKiowa/MliKiowa.github.io
 npm install
 hexo g
-'''
+```
 可以很快的到新机器上使用 靠谱
 ## 展望
 原来的域名气质好憨(被我朋友有幸嘲笑)，怎么能配地上新博客，而且还是在腾讯云上注册的，所以讲我还是注册个符合气质的新域名啊
