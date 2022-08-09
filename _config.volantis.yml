@@ -189,7 +189,7 @@ sidebar:
           text: '已运行时间：'
           unit: '天'
         wordcount:
-          enable: false
+          enable: true
           text: '本站总字数：'   # 需要启用 wordcount
           unit: '字'
         visitcounter:
@@ -237,7 +237,7 @@ color_scheme:
   # 亮色主题（默认）
   light:
     # 网站背景色
-    site_bg: '#f8f8ff'
+    site_bg: '#e0eeee'
     # 网站背景上的文字
     site_inner: '#fff'
     # 网站页脚文字
