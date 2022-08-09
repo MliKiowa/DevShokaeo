@@ -214,7 +214,7 @@ color_scheme:
   # 通用颜色
   common:
     # 主题色
-    theme: '#FFAEB9'
+    theme: '#ffcccc'
     # 链接色
     link: '#2092ec'
     # 按钮色
@@ -236,9 +236,9 @@ color_scheme:
     site_footer: '#666'
 
     # 卡片背景色
-    card: '#ffcccc'
+    card: '#FFF0F5'
     # 卡片上的普通文字
-    text: '#ffcccc'
+    text: '#fff'
 
     # 区块和代码块背景色
     block: '#f6f6f6'
