@@ -30,7 +30,7 @@ cover:
   layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   title: 'Mlikiowa Home Village'
   subtitle: ''
-  background: https://s2.loli.net/2022/08/09/QuPieVtFCLD68Oc.webp  search: A Wonderful Theme for Hexo # search
+  background: https://s2.loli.net/2022/08/09/QuPieVtFCLD68Oc.webp
   search: A Wonderful Theme for Hexo # search
   features:
     - name: 博客
