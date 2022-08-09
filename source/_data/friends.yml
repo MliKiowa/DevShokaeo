@@ -1,5 +1,5 @@
-- group: # 分组标题
-  description:  # 分组描述
+- group: 朋友 # 分组标题
+  description: 测试  # 分组描述
   items:
     - title:demo # 名称
       avatar:https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100 # 头像
