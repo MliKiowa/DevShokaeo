@@ -86,7 +86,7 @@ article:
     readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
   body:
-    top_meta: [author, category, date, counter] #启用评论数量需在此添加       
+    top_meta: [author, category, date, wordcount] #启用评论数量需在此添加       
     bottom_meta: [updated, tags]
     footer_widget:
       copyright:
@@ -95,33 +95,22 @@ article:
           - 'Abide by  CC BY-NC-SA 4.0'                
     meta_library:   
       author:
-        avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+        avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
         name: Mlikiowa
         url: /
       date:
         icon: fas fa-calendar-alt
         title: '发布于：'
         format: 'll' # 日期格式 http://momentjs.com/docs/
-      # 文章更新日期
-      updated:
-        icon: fas fa-edit
-        title: '更新于：'
-        format: 'll' # 日期格式 http://momentjs.com/docs/
-      # 文章分类
       category:
-        icon: fas fa-folder-open
-      # 文章浏览计数
-      counter:
-        icon: fas fa-eye
-        unit: '次浏览'
+        icon: fas fa-folder-open      
       # 文章字数和阅读时长
       wordcount:
         icon_wordcount: fas fa-keyboard
         icon_duration: fas fa-hourglass-half
       # 文章标签
       tags:
-        icon: fas fa-hashtag
-
+        icon: fas fa-hashtag  
 site_footer:
   layout: [copyright]
   copyright: '⌘ Hexo With Volantis'  
@@ -149,7 +138,7 @@ sidebar:
     blogger:
       class: blogger
       display: [desktop, mobile] # [desktop, mobile]
-      avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
       shape: rectangle # circle, rectangle
       url: /about/
       title:
