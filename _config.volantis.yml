@@ -296,7 +296,7 @@ color_scheme:
     h4: '#FFFFFF99'
     h5: '#FFFFFF99'
     h6: '#FFFFFF99'
-    p: '#d9d9d9de'           #  Dark Grey 6
+    p: '#ffcccc'           #  Dark Grey 6
 
     # 列表文字                #  Dark Grey 6
     list: '#d9d9d9de'
