@@ -1,5 +1,4 @@
-default:
-  avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+## nav
 navbar:
   visiable: auto
   logo: 
@@ -25,11 +24,14 @@ navbar:
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
+## cover
 cover:
-  # height_scheme: full # full, half
-  title: 'Village'
-  subtitle: 'Mlikiowa Home'
+  height_scheme: full # full, half
+  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  title: 'Mlikiowa Home Village'
+  subtitle: ''
   background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
+  search: A Wonderful Theme for Hexo # search
   features:
     - name: 博客
       img: volantis-static/media/twemoji/assets/svg/1f4f0.svg
@@ -50,6 +52,7 @@ cover:
     - name: 归档
       img: volantis-static/media/twemoji/assets/svg/1f5c3.svg
       url: /archives/    
+## comments
 comments:
   service: giscus
   giscus:
@@ -64,12 +67,14 @@ comments:
     theme:
       light: "light" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
-# 文章布局
+## Friend
+pages:
+  friends:
+    layout_scheme: traditional # simple: 简单布局, traditional: 传统布局
+## article
 article:
-  # 文章列表页面的文章卡片布局方案
   preview:
-    scheme: landscape # landscape
-    # pin icon for post
+    scheme: landscape # landscape  
     pin_icon: https://fastly.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
     # auto generate title if not exist
     auto_title: true # false, true
@@ -81,56 +86,18 @@ article:
     readmore: auto # auto, always
   # 文章详情页面的文章卡片本体布局方案
   body:
-    # 文章顶部信息
-    # 从 meta_library 中取
-    top_meta: [author, category, date, counter]
-    # ----------------
-    # 文章页脚组件
+    top_meta: [author, category, date, counter] #启用评论数量需在此添加       
+    bottom_meta: [updated, tags]
     footer_widget:
-      # ----------------
-      # 参考资料、相关资料等 (for layout: post/docs)
-      references:
-        title: 参考资料
-        icon: fas fa-quote-left
-        # 在 front-matter 中:
-        #   references:
-        #     - title: 某篇文章
-        #       url: https://
-        # 即可显示此组件。
-      # ----------------
-      # 相关文章，需要安装插件 (for layout: post)
-      # npm i hexo-related-popular-posts
-      related_posts:
-        enable: false
-        title: 相关文章
-        icon: fas fa-bookmark
-        max_count: 5
-        # 设为空则不使用文章头图
-        placeholder_img: https://fastly.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/046.jpg
-      # ----------------
-      # 版权声明组件 (for layout: post/docs)
       copyright:
         enable: true     
         content:
-          - '内容遵循 CC BY-NC-SA 4.0'       
-      # ----------------
-      # 打赏组件 (for layout: post/docs)
-      donate:
-        enable: false
-        images:
-          - https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-          - https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
-    # 文章底部信息
-    # 从 meta_library 中取
-    bottom_meta: [updated, tags, share]
-    # meta library
-    meta_library:
-      # 默认文章作者（可在 front-matter 中覆盖）
+          - 'Abide by  CC BY-NC-SA 4.0'                
+    meta_library:   
       author:
         avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
         name: Mlikiowa
         url: /
-      # 文章创建日期
       date:
         icon: fas fa-calendar-alt
         title: '发布于：'
@@ -154,18 +121,7 @@ article:
       # 文章标签
       tags:
         icon: fas fa-hashtag
-      # 分享
-      share:
-        - id: qq
-          img: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
-        - id: qzone
-          img: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
-        - id: weibo
-          img: https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
-        - id: # qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
-          img: # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
-        - id: # telegram
-          img: # https://fastly.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+
 site_footer:
   layout: [copyright]
   copyright: '⌘ Hexo With Volantis'  
@@ -181,3 +137,94 @@ blogger:
   subtitle:
   jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
   social: true
+## sidebar
+sidebar:
+  position: right # left right
+  # 主页、分类、归档等独立页面
+  for_page: [blogger, category]
+  for_post: [toc]
+  widget_library:
+    # ---------------------------------------
+    # blogger info widget
+    blogger:
+      class: blogger
+      display: [desktop, mobile] # [desktop, mobile]
+      avatar: http://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+      shape: rectangle # circle, rectangle
+      url: /about/
+      title:
+      subtitle:
+      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social:
+        - icon: fa-solid fa-rss
+          url: /atom.xml
+        - icon: fa-solid fa-envelope
+          url: mailto:me@xxx.com
+        - icon: fab fa-github
+          url: https://github.com/volantis-x/
+        - icon: fa-solid fa-headphones-alt
+          url: /
+    # ---------------------------------------
+    # toc widget (valid only in articles)
+    toc:
+      class: toc
+      display: [desktop, mobile] # [desktop, mobile]
+      sticky: true
+      header:
+        icon: fa-solid fa-list
+        title: 本文目录
+      list_number: false
+      min_depth: 2
+      max_depth: 5
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fa-solid fa-folder-open
+        title: 文章分类
+        url: /blog/categories/
+    webinfo:
+      class: webinfo
+      display: [desktop]
+      header:
+        icon: fa-solid fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: '文章数目：'
+          unit: '篇'
+        runtime:
+          enable: false
+          data: '2020/01/01'    # 填写建站日期
+          text: '已运行时间：'
+          unit: '天'
+        wordcount:
+          enable: false
+          text: '本站总字数：'   # 需要启用 wordcount
+          unit: '字'
+        visitcounter:
+          siteuv:
+            enable: false
+            text: '本站访客数：'
+            unit: '人'
+          sitepv:
+            enable: false
+            text: '本站总访问量：'
+            unit: '次'
+        lastupd:
+          enable: true
+          friendlyShow: true    # 更友好的时间显示
+          text: '最后活动时间：'
+          unit: '日'
+    # ---------------------------------------
+    # lastupdate widget
+    lastupdate:
+      class: lastupdate
+      display: [desktop, mobile]
+      header:
+        icon: fa-solid fa-clock WISTERIA
+        title: 最近更新
+plugins:
+  wordcount:
+    enable: true
