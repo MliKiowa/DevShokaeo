@@ -244,7 +244,7 @@ color_scheme:
     site_footer: '#666'
 
     # 卡片背景色
-    card: '#ffcccc'
+    card: '#fff'
     # 卡片上的普通文字
     text: '#fff'
 
