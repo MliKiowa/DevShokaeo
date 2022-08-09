@@ -137,7 +137,7 @@ sidebar:
     # blogger info widget
     blogger:
       class: blogger
-      display: [desktop, mobile] # [desktop, mobile]
+      display: [desktop] # [desktop, mobile]
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
       shape: rectangle # circle, rectangle
       url: /about/
