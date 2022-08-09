@@ -1,9 +1,0 @@
-- group: 朋友
-  description: 测试
-  items:
-    - title: demo 
-      avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100'
-      url: 'https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100'
-      screenshot: 'https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100'
-      keywords: demo
-      description: demo 
