@@ -1,0 +1,9 @@
+- group: # 分组标题
+  description:  # 分组描述
+  items:
+    - title:demo # 名称
+      avatar:https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100 # 头像
+      url:https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100 # 链接
+      screenshot: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100 # 截图
+      keywords: demo # 关键词
+      description: demo # 描述 
