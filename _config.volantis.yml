@@ -31,6 +31,7 @@ cover:
   title: 'Mlikiowa Home Village'
   subtitle: ''
   background: https://s2.loli.net/2022/08/09/QuPieVtFCLD68Oc.webp  search: A Wonderful Theme for Hexo # search
+  search: A Wonderful Theme for Hexo # search
   features:
     - name: 博客
       img: volantis-static/media/twemoji/assets/svg/1f4f0.svg
