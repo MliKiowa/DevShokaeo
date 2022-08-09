@@ -1,6 +1,8 @@
 ---
 title: 新博客建好啦
 date: 2022-08-05
+categories:
+- SiteLog
 ---
 
 是全新的依赖于Hexo+vlolantis搭建的博客!
