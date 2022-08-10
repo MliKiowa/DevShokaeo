@@ -6,5 +6,5 @@
       avatar: https://imgod.me/img/god.png # 头像
       url: https://imgod.me/img/god.png # 链接
       screenshot: # 截图
-      keywords: 测试 # 关键词
+      keywords: [ demo , demo2 ] # 关键词
       description: 测试 # 描述   
