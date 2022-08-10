@@ -1,10 +1,11 @@
-- group: 测试
+- group: 友链
   icon: font awesome icons
   description: 描述
   items:
-    - title: 测试 # 名称
+    - title: 故人随笔 # 名称
       avatar: https://imgod.me/img/god.png # 头像
-      url: https://imgod.me/img/god.png # 链接
+      url: https://imgod.me/ # 链接
       screenshot: # 截图
-      keywords: [ demo , demo2 ] # 关键词
-      description: 测试 # 描述   
+      keywords: [ 寒江孤影 , 江湖故人 ] # 关键词
+      description: 寒江孤影，江湖故人，相逢何必曾相识
+lin # 描述   
