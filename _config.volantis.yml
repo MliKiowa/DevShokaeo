@@ -70,7 +70,7 @@ comments:
 ## Friend
 pages:
   friends:
-    layout_scheme: traditional # simple: 简单布局, traditional: 传统布局
+    layout_scheme: simple # simple: 简单布局, traditional: 传统布局
 ## article
 article:
   preview:
