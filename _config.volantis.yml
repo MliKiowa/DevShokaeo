@@ -68,9 +68,6 @@ comments:
       light: "light" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
       dark: "dark" # https://fastly.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
 ## Friend
-pages:
-  friends:
-    layout_scheme: simple # simple: 简单布局, traditional: 传统布局
 ## article
 article:
   preview:
