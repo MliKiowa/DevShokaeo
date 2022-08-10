@@ -1,4 +1,4 @@
-- group: # 分组标题
+- groups: # 分组标题
   description:  # 分组描述
   items:
     - title: 测试 # 名称
