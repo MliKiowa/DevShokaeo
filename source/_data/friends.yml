@@ -1,0 +1,9 @@
+groups: Demo # 分组标题
+  description:  # 分组描述
+  items:
+    - title: 测试 # 名称
+      avatar: https://imgod.me/img/god.png # 头像
+      url: https://imgod.me/img/god.png # 链接
+      screenshot: # 截图
+      keywords: 测试 # 关键词
+      description: 测试 # 描述   
