@@ -1,6 +1,6 @@
 - group: 友链
   icon: font awesome icons
-  description: 描述
+  description: Friends Blog
   items:
     - title: 故人随笔 # 名称
       avatar: https://imgod.me/img/god.png # 头像
@@ -14,3 +14,9 @@
       screenshot: # 截图
       keywords: [ 摄影知识 , 每日新闻 ] # 关键词
       description: 摄影知识,每日新闻,中药知识等知识分享 
+    - title: 小小孩子们的Blog # 名称
+      avatar: https://cdn.xxhzm.cn/xxhzm/head.jpg # 头像
+      url: https://www.xxhzm.cn # 链接
+      screenshot: # 截图
+      keywords: [ 个人博客 , 记录生活 ] # 关键词
+      description: 记录美好生活 
