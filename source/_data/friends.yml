@@ -20,3 +20,9 @@
       screenshot: # 截图
       keywords: [ 个人博客 , 记录生活 ] # 关键词
       description: 记录美好生活 
+      - title: 艾木 # 名称
+      avatar: https://test.aimuya.cn/storage/users/files/1/2022-08/1659920471.jpg # 头像
+      url: https://aimuya.cn # 链接
+      screenshot: # 截图
+      keywords: [ 个人博客 , 键盘码农 ] # 关键词
+      description: 一个喜欢搞键盘外设的码农
