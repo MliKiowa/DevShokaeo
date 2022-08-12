@@ -3,8 +3,16 @@ layout: friends
 title: 我的朋友们 
 ---
 
-这里写友链上方的内容。
+My Friends
 
 <!-- more -->
 
-这里可以写友链页面下方的文字备注，例如自己的友链规范、示例等。
+{% folding MySite %}
+```
+Name:Mlikiowa Home Village
+description:A litter Village With Mlikiowa
+Url:https://nanaeo.cn/
+avatar(100x100):https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
+siteshot:
+```
+{% endfolding %}
