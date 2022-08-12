@@ -238,7 +238,7 @@ color_scheme:
     # 主题色块内部的文字颜色
     inner: '#fff'
     # 选中区域文字的背景颜色
-    selection: 'alpha(#fef4fe, 0.2)'
+    selection: 'alpha(#d9d3f6, 0.5)'
   # ------------
   # 亮色主题（默认）
   light:
@@ -257,7 +257,7 @@ color_scheme:
     # 区块和代码块背景色
     block: '#f6f6f6'
     # 代码块高亮时的背景色
-    codeblock: '#eea9b8'
+    codeblock: '#fef4fe'
     # 行内代码颜色
     inlinecode: '#188a91'
 
@@ -273,7 +273,7 @@ color_scheme:
     # 列表文字
     list: '#666'
     # 列表 hover 时的文字
-    list_hl: 'mix($color-theme, #000, 80)'
+    list_hl: 'mix($color-theme, #d9d3f6, 80)'
     # 辅助性文字
     meta: '#888'
     
