@@ -271,7 +271,7 @@ color_scheme:
     p: '#23464f'
 
     # 列表文字
-    list: '#666'
+    list: '#eea9b8'
     # 列表 hover 时的文字
     list_hl: 'mix($color-theme, #d9d3f6, 80)'
     # 辅助性文字
