@@ -129,7 +129,7 @@ custom_css:
     bodyfont:
       fontfamily: 'Dosis, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'Dosis'
-      url: inkss/common@1/fonts/canva/HYRunYuan.woff2
+      url: https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/HYRunYuan.woff2
       weight: normal
       style: normal
 ## sidebar
