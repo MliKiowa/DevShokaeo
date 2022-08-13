@@ -38,7 +38,8 @@
       screenshot: # 截图
       keywords: [ 个人博客 ] # 关键词
       description: 路漫漫其修远兮，吾将上下而求索
-      - title: zx's blog
+    - title: zx's blog
+      screenshot: # 截图
       url: https://zx.js.cool
       keywords: [ 个人博客 ] # 关键词
       description: Java资源速查
