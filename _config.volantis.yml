@@ -129,7 +129,7 @@ custom_css:
     bodyfont:
       fontfamily: 'Dosis, "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       name: 'Dosis'
-      url: https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/HYRunYuan.woff2
+      url: volantis-static/media/fonts/Dosis/Dosis-Medium.ttf
       weight: normal
       style: normal
 ## sidebar
