@@ -333,7 +333,7 @@ cdn:
   # 以下配置可以覆盖 cdn.prefix,配置项的值可以为空，但是要使用CDN必须依据路径填写配置项的键
   map:
     js:
-      app:[{src: '/js/app.js'}]
+      app: [{src: '/js/app.js'}]
     css:
       style: [{src: '/css/style.css'}] # (异步加载样式)
 # 静态资源版本控制
