@@ -25,7 +25,6 @@ navbar:
       icon: fa-solid fa-info-circle
       url: about/
 ## cover
-cdn_version: false 
 cover:
   height_scheme: full # full, half
   layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
@@ -224,6 +223,8 @@ sidebar:
 plugins:
   wordcount:
     enable: true
+  pjax:
+    enable: true
 color_scheme:
   # ------------
   # 通用颜色
@@ -261,7 +262,6 @@ color_scheme:
     codeblock: '#fef4fe'
     # 行内代码颜色
     inlinecode: '#188a91'
-
     # 文章部分
     h1: '#3a3a3a'
     h2: '#3a3a3a'
