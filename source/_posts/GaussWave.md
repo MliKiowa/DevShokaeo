@@ -8,7 +8,11 @@ tags:
     - Gauss
 ---
 高斯滤波实现
+
+<!-- more -->
+
 ## 本文提示
+** 本文仍然在编辑/排版中 **
 本文提供了相关代码和算法仅为示例学习，并非标准案例，并且OpenCV提供了高斯滤波函数，如果遇到不明白的概念和地方可以参考引用文章理解，也可以尝试在搜索引擎上搜索相关概念和图片示例，由于本站资源原因，暂不提供图片。
 
 tips: 本文为了方便仅是灰度图片处理
@@ -38,7 +42,8 @@ tips:高斯平滑滤波器对于抑制服从**正态分布**的噪声非常有�
 当我们进行滤波时，使用到的权用一个矩阵表示，该矩阵是一个权矩阵，同时我们叫这个权 矩阵为滤波核。(示例见前提指明)
 ## 生成滤波核
 ![CodeCogsEqn.gif](https://s2.loli.net/2022/08/14/4dgAQ2RCInSM8m6.gif)
-'''
+
+```
 def GaussKernel(size,k,sigma):
     _t = np.zeros((size,size),np.float32)
     for i in range (size):
@@ -48,11 +53,12 @@ def GaussKernel(size,k,sigma):
     sum = np.sum(_t)
     kernel = _t/sum
     return kernel
-'''
+```
+
 ### que:滤波核为什么是奇数?
 其中一个原因是定位中心锚点
 ## 直接OpenCV操作
-'''
+```
 import cv2
 Gn=cv2.imread("Gaussian_noise.jpg") 
 Gf=cv2.GaussianBlur(Gn,(3,3),0,0)
@@ -60,7 +66,7 @@ cv2.imshow("未处理噪声图像",Gn)
 cv2.imshow("高斯滤波后图像",Gf)
 cv2.waitKey()
 cv2.destroyAllWindows()
-'''
+```
 ## 文章引用
 高斯滤波(推荐)
 https://blog.csdn.net/weixin_51571728/article/details/121527964
