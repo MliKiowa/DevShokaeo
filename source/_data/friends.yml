@@ -46,5 +46,11 @@
       avatar: https://zx.js.cool/avatar.webp
     - title: Xlencoの小窝
       url: https://xlenco.eu.org
+      keywords: [ 个人博客 ] # 关键词
       avatar: https://ik.imagekit.io/nicexl/head.jpg
       description: 最好的地方，是没去过的地方。最美好的时光，是回不去的时光。
+    - title: 小罗の小窝
+      url: https://xiao-luo17.github.io/
+      keywords: [ 个人博客 ] # 关键词
+      avatar: https://xiao-luo17.github.io/img/avatar.jpg
+      description: Welcome to my blog!
