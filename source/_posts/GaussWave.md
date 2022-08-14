@@ -37,7 +37,7 @@ tips:高斯平滑滤波器对于抑制服从**正态分布**的噪声非常有�
 ## 滤波核
 当我们进行滤波时，使用到的权用一个矩阵表示，该矩阵是一个权矩阵，同时我们叫这个权 矩阵为滤波核。(示例见前提指明)
 ## 生成滤波核
- P\left ( x \right ) = \frac{1}{\sqrt{ 2 \pi { \delta }^{2} }} e^{-\frac {{\left ( x-m \right )}^{2}}{{2 \delta}^{2}}}
+![CodeCogsEqn.gif](https://s2.loli.net/2022/08/14/4dgAQ2RCInSM8m6.gif)
 '''
 def GaussKernel(size,k,sigma):
     _t = np.zeros((size,size),np.float32)
