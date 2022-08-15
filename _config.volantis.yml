@@ -327,3 +327,4 @@ color_scheme:
     # 夜间图片亮度
     brightness: 70%
 ## cdn_version: false
+content_visibility: true
