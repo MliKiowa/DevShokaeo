@@ -86,10 +86,13 @@ article:
     top_meta: [author, category, date, wordcount] #启用评论数量需在此添加       
     bottom_meta: [updated, tags]
     footer_widget:
+      references:
+        icon: fa-light fa-quote-left CONCRETE
       copyright:
-        enable: true     
+        enable: true
         content:
-          - 'Abide by  CC BY-NC-SA 4.0'                
+          - '博客内容遵循 <a href="/page/cc">署名-非商业性使用-相同方式共享 4.0 国际</a> 协议。'
+        custom: true # 开启后替代上方内容的版权显示                     
     meta_library:   
       author:
         avatar: https://q1.qlogo.cn/g?b=qq&nk=1627126029&s=100
