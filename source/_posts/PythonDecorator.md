@@ -67,7 +67,8 @@ ret_f = hi() # 获取ret_p函数对象
 ret_f() # 执行ret_p函数
 ```
 结果输出HelloWorld，那么这些都是非常简单的，就像新手入门一样。
-## 那么我会回归刚刚一切皆有对象的地方
+## 回归装饰器
+细细观察以下代码
 ```
 def a(func):
     def inner():
@@ -79,8 +80,8 @@ def b():
     print("function")
 b()
 ```
-这里结果是 function
-如何我们稍加就会实现特殊功能
+我们发现这段代码这里输出结果是 function
+但是我们稍加修改就会实现特殊功能
 ```
 def a(func):
     def inner():
@@ -93,9 +94,9 @@ def b():
 c = a(b)
 c()
 ```
-这样你就会发现结果是decorated和function
+这样你就会发现结果是decorated和function，
 b函数的结果并没有进行任何修改我们就实现了对功能增加
-那么我们还可以稍加优化
+那么我们还可以稍加优化，去掉c直接将修饰好的函数覆盖原来的函数
 ```
 def a(func):
     def inner():
