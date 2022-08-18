@@ -29,7 +29,7 @@ def demo()
 查阅资料后发现其实这是Python装饰器，类似的设计模式称为装饰器模式。
 ## 一切皆是对象
 先别急，我们先理解一个概念，我们在Python可以将一切东西理解为对象，就像Linux一切皆文件的思想。甚至是一个函数其实也是对象
-```
+```python
 def b():
     print("hi")
 a = b
@@ -41,7 +41,7 @@ a()
 那么根据以上我们可以知道函数也是可以作为参数进行传递
 Python中的一切(是的，甚至是类)都是对象。 我们定义的名称只是绑定到这些对象的标识符。 函数也不例外，它们也是对象(带有属性)。 
 ## 将函数作为参数
-```
+```python
 def a1(x):
     return x + 5
 
@@ -57,7 +57,7 @@ operate(b1,5)
 结果是10和0
 相信熟悉PHP同学感觉很熟悉了，有类似的感觉了，该函数是一个高阶函数(将其他函数作为参数的函数也称为高阶函数)
 ## 尝试在函数返回另一个函数
-```
+```python
 def hi():
     def ret_p():
         print("HelloWorld")
@@ -69,7 +69,7 @@ ret_f() # 执行ret_p函数
 结果输出HelloWorld，那么这些都是非常简单的，就像新手入门一样。
 ## 回归装饰器
 细细观察以下代码
-```
+```python
 def a(func):
     def inner():
         print("decorated")
@@ -82,7 +82,7 @@ b()
 ```
 我们发现这段代码这里输出结果是 function
 但是我们稍加修改就会实现特殊功能
-```
+```python
 def a(func):
     def inner():
         print("decorated")
@@ -97,7 +97,7 @@ c()
 这样你就会发现结果是decorated和function，
 b函数的结果并没有进行任何修改我们就实现了对功能增加
 那么我们还可以稍加优化，去掉c直接将修饰好的函数覆盖原来的函数
-```
+```python
 def a(func):
     def inner():
         print("decorated")
@@ -111,7 +111,7 @@ b()
 ```
 我们可以发现如果将最后一行c改成b你就发现原b函数的功能被增加了，并且覆盖原功能了，这就Python基础修饰器
 但是这和@那行实现的装饰器有什么区别呢，其实以下代码等价于以上代码
-```
+```python
 def a(func):
     def inner():
         print("decorated")
