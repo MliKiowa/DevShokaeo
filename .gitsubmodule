@@ -1,0 +1,3 @@
+[submodule "themes/hexo-theme-shokaeo"]
+	path = themes/hexo-theme-shokaeo
+	url = https://github.com/MliKiowa/hexo-theme-shokaeo
