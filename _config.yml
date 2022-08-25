@@ -10,7 +10,6 @@ keywords:
 author: Mlikiowa
 language:
   - zh-CN
-  - en
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -99,23 +98,4 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: volantis
-# 全局导入
-import:
-  body_end:
-    - <script>"serviceWorker"in navigator&&navigator.serviceWorker.register("/sw.js").then(function(n){n.onupdatefound=function(){var e=n.installing;e.onstatechange=function(){switch(e.state){case"installed":navigator.serviceWorker.controller?console.log("Updated serviceWorker."):console.log("serviceWorker Sucess!");break;case"redundant":console.log("The installing service worker became redundant.")}}}}).catch(function(e){console.log("Error during service worker registration:",e)}); </script>
-## Hexo Feed
-feed:
-    limit: 20
-    order_by: "-date"
-    tag_dir: "tag"
-    category_dir: "category"
-    rss:
-        enable: true    
-        output: "rss.xml"
-    atom:
-        enable: true
-        output: "atom.xml"
-    jsonFeed:
-        enable: true
-        output: "feed.json"
+theme: shoke
